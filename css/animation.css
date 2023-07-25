@@ -1,0 +1,30 @@
+/*animation while scrolling*/
+.home-page .show {
+    left: 0%;
+    opacity: 1;
+    transition: 2s;
+}
+.circles .show{
+    top: 0px;
+    opacity: 1;
+    
+}
+.circle-container .show{
+    opacity: 1;
+    transition: 2s;
+}
+.information-page .show{
+    left: 0%;
+    opacity: 1;
+    transition: 2s;
+}
+.tours-page .show{
+        left: 0%;
+        opacity: 1;
+        transition: left 2s,opacity 2s,transform .5s;
+    }
+.culture-page .show{
+    left: 0%;
+    opacity: 1;
+    transition: 2s;
+}

@@ -1,0 +1,63 @@
+@media (min-width: 600px) and (max-width: 1079px){
+
+    /*styling the logo*/
+    header .logo{
+        font-size: 12px;
+    }
+    .information-page .tours{
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+        padding: 0px 5%;
+    }
+    .information-page .tours .pic{
+        width: 40%;
+        height: 300px;
+    }
+    .tour-information{
+        width: 60%;
+        font-size: var(--font-size-first);
+        margin-bottom: 40px;
+        overflow: visible;
+    }
+    .information-page .s2{
+        flex-direction: row-reverse;
+    }
+        /*Styling Tours Page*/
+    .tours-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        padding: 0px 5%;
+        justify-content: center;
+    }
+    
+    .tours-page .information{
+        font-size: var(--font-size-first);
+    }
+        /*styling the culture page*/
+    .culture-page{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 5%;
+    }
+    .culture-page .culture-information{
+        width: 60%;
+    }
+    .culture-page .pic-hospitality{
+        width: 40%;
+        height: 300px;
+    }
+        /*styling the footer*/
+    .other{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        margin-bottom: 5%;
+    }
+    /*disabling animation*/
+    
+}
