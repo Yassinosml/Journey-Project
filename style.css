@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --text-color : white;
+    --color: rgb(243, 131, 2);
+    --padding-left-right : 10%;
+    --font-size-first : 14px;
+    --title-size : 8px;
+    
+}
+body{
+    background: url(images/Background.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/*styling the logo*/
+header .logo{
+    font-size: var(--title-size);
+    font-weight: bold;
+}
+header .logo h1{
+    color: var(--text-color);
+}
+header .logo span{
+    color: var(--color);
+}
+/*styling the header*/
+header{
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur('10px');
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    flex-wrap: wrap;
+    position: fixed;
+    
+
+}
+/*styling the nav-bar*/
+header .nav-bar {
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    top: 0;
+    right: -50%;
+    opacity: 0;
+    background-color: black;
+    padding-left: 5%;
+    z-index: 9;
+    transition: .4s;
+}
+/*styling the links inside the nav-bar*/
+header .nav-bar ul li,
+header .nav-bar ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: var(--font-size-first);
+    margin-top: 20%;
+    color: var(--text-color);
+    transition: .4s;
+}
+/*styling the social-links*/
+header .social-links{
+    margin-right: 5vw;
+}
+/*styling the links inside social-links*/
+header .social-links ul li,
+header .social-links ul li a{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 1.5vw;
+    color: var(--text-color);
+    font-size: var(--font-size-first);
+    transition: .4s;
+}
+/*styling the bar*/
+header .bar{
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+       top: 21.5px;
+    z-index: 10;
+    color: var(--text-color);
+    transition: .4s;
+}
+/*styling color while hovering*/
+header ul li a:hover,
+header .bar:hover{
+    color: var(--color);
+}
